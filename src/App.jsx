@@ -3,6 +3,9 @@ import './App.css'
 import CompMostrarClientes from './componentes/CompMostrarClientes'
 import CompCrearClientes from './componentes/CompCrearClientes'
 import CompEditarClientes from './componentes/CompEditarClientes'
+import CompMostrarProductos from './componentes/CompMostrarProductos'
+import CompCrearProductos from './componentes/CompCrearProductos'
+import CompEditarProductos from './componentes/CompEditarProductos'
 import CompFooter from './componentes/footer'
 // Importamos Router
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
@@ -18,7 +21,7 @@ function App() {
         <li className="nav-item"><a href="/" className='nav-link'>INICIO</a></li>
         <li className="nav-item"><a className="nav-link" href="/clientes">Clientes</a></li>
         <li className="nav-item"><a className="nav-link" href="/productos">Productos</a></li>
-        <li className="nav-item"><a className="nav-link" href="/proveedores">Proveedores</a></li>
+        <li className="nav-item"><a className="nav-link" href="/productos">Proveedores</a></li>
       </ul>
     </div>
   </div>
@@ -31,6 +34,9 @@ function App() {
       <Route path= '/clientes/' element={<CompMostrarClientes />} />
       <Route path= '/clientes/agregar' element={<CompCrearClientes />} />
       <Route path= '/clientes/editar/:id' element={<CompEditarClientes />} />
+      <Route path= '/productos/' element={<CompMostrarProductos />} />
+      <Route path= '/productos/agregar' element={<CompCrearProductos />} />
+      <Route path= '/productos/editar/:id' element={<CompEditarProductos />} />
       </Routes>
       </BrowserRouter>
       <CompFooter>
