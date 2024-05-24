@@ -2,7 +2,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 
-const URL = 'http://localhost:5000/api/clientes/';
+const URL = 'https://backend42-28ph.onrender.com/api/clientes/';
 
 const CompCrearClientes = () => {
     const [nombres, setNombres]= useState('');
