@@ -65,6 +65,5 @@ const CompMostrarClientes = () => {
         </div>
     )
 }
-}
 
 export default CompMostrarClientes;
