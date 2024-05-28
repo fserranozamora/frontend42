@@ -48,7 +48,7 @@ const CompMostrarProductos = () => {
                                     <td>{Producto.precio_total}</td>
                                     <td>
                                         <Link to={`/productos/editar/${Producto._id}`} className='btn btn-primary mt-2 mb-2'>  Editar  <i className="fa-solid fa-pen-to-square"></i></Link>
-                                        <b> </b>
+                                        <b>&nbsp;</b>&nbsp;
                                         <button onClick={() => eliminarProductos(Producto._id)} className='btn btn-danger mt-2 mb-2'>  Eliminar  <i className="fa-solid fa-trash"></i></button>
                                     </td>
                                 </tr>
