@@ -7,7 +7,7 @@ const URL = 'https://backend42-28ph.onrender.com/api/productos/';
 
 const CompMostrarProductos = () => {
 
-    const [productos, setProductos] = useState([])
+   const [productos, setProductos] = useState([])
 
     useEffect(() => {
         getproductos()
