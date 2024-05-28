@@ -72,7 +72,7 @@ const CompEditarClientes = () => {
                 </div>
                 <button type="submit" className="btn btn-success">  Actualizar <i className="fa-solid fa-floppy-disk"></i></button>
                 <b>&nbsp;</b>&nbsp;
-                <a href="/productos"><button type="button" className="btn btn-danger"> Cancelar <i className="fa-solid fa-xmark"></i></button></a>
+                <a href="/clientes"><button type="button" className="btn btn-danger"> Cancelar <i className="fa-solid fa-xmark"></i></button></a>
             </form>
         </div>
     )
