@@ -54,7 +54,7 @@ const CompCrearClientes = () => {
                     <label className="form-label">Direccíon</label>
                     <input value={direccion} onChange={(e) => setDireccion(e.target.value)} type="text" className="form-control" />
                 </div>
-                <button type="submit" className="btn btn-success">  Guardar  <i className="fa-solid fa-floppy-disk"></i></button>
+                <button type="submit" className="btn btn-success"> Guardar <i className="fa-solid fa-floppy-disk"></i></button>
                 <b>&nbsp;</b>&nbsp;
                 <a href="/clientes"><button type="button" className="btn btn-danger"> Cancelar <i className="fa-solid fa-xmark"></i></button></a>
             </form>
