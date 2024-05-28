@@ -56,7 +56,9 @@ const CompEditarProductos = () => {
                     <label className="form-label">Precio total</label>
                     <input value={precio_total} onChange={(e) => setPrecioTotal(e.target.value)} type="text" className="form-control" />
                 </div>
-                <button type="submit" className="btn btn-success">  Actualizar <i className="fa-solid fa-floppy-disk"></i></button>
+                <button type="submit" className="btn btn-success"> Actualizar <i className="fa-solid fa-floppy-disk"></i></button>
+                <b>&nbsp;</b>&nbsp;
+                <a href="/productos"><button type="button" className="btn btn-danger"> Cancelar <i className="fa-solid fa-xmark"></i></button></a>
             </form>
         </div>
     )
