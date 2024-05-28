@@ -21,7 +21,7 @@ function App() {
         <li className="nav-item"><a href="/" className='nav-link'>INICIO</a></li>
         <li className="nav-item"><a className="nav-link" href="/clientes">Clientes</a></li>
         <li className="nav-item"><a className="nav-link" href="/productos">Productos</a></li>
-        <li className="nav-item"><a className="nav-link" href="/productos">Proveedores</a></li>
+        <li className="nav-item"><a className="nav-link" href="/proveedores">Proveedores</a></li>
       </ul>
     </div>
   </div>
