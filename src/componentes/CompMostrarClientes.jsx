@@ -28,9 +28,9 @@ const CompMostrarClientes = () => {
             <h3>Lista de clientes</h3>
             <div className='row'>
                 <div className='col'>
-                    <Link to='/clientes/agregar' className='btn btn-success mt-2 mb-2' >  Agregar  <i className="fa-solid fa-user-plus"></i></Link>
-                    <table className='table'>
-                        <thead className="table-success">
+                    <Link to='/clientes/agregar' className='btn btn-success mt-2 mb-2' >  Agregar clientes  <i className="fa-solid fa-user-plus"></i></Link>
+                    <table className='table table-bordered border border-black'>
+                        <thead className="table-success table-group-divider">
                             <tr>
                                 <th>Nombres cliente</th>
                                 <th>Apellidos cliente</th>
@@ -40,7 +40,7 @@ const CompMostrarClientes = () => {
                                 <th>Dirección</th>
                                 <th>Acciones</th>
                             </tr>
-                        </thead>
+                        </thead className='table-info'>
                         <tbody>
                             {clientes.map((Cliente, index) => (
                                 <tr key={index}>
