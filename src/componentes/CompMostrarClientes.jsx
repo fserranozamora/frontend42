@@ -40,8 +40,8 @@ const CompMostrarClientes = () => {
                                 <th>Dirección</th>
                                 <th>Acciones</th>
                             </tr>
-                        </thead className='table-info'>
-                        <tbody>
+                        </thead>
+                        <tbody className='table-info'>
                             {clientes.map((Cliente, index) => (
                                 <tr key={index}>
                                     <td>{Cliente.nombres}</td>
