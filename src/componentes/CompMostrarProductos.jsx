@@ -28,9 +28,9 @@ const CompMostrarProductos = () => {
             <h3>Lista de productos</h3>
             <div className='row'>
                 <div className='col'>
-                    <Link to='/productos/agregar' className='btn btn-success mt-2 mb-2' >  Agregar  <i className="fa-solid fa-user-plus"></i></Link>
-                    <table className='table'>
-                        <thead className="table-success">
+                    <Link to='/productos/agregar' className='btn btn-success mt-2 mb-2' >  Agregar producto <i className="fa-solid fa-user-plus"></i></Link>
+                    <table className='table table-bordered border border-black'>
+                        <thead className="table-success table-group-divider">
                             <tr>
                                 <th>Nombre del producto</th>
                                 <th>Unidades</th>
@@ -39,7 +39,7 @@ const CompMostrarProductos = () => {
                                 <th>Acciones</th>
                             </tr>
                         </thead>
-                        <tbody>
+                        <tbody className='table-info'>
                             {productos.map((Producto, index) => (
                                 <tr key={index}>
                                     <td>{Producto.nombre_producto}</td>
