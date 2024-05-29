@@ -28,7 +28,7 @@ const CompMostrarProductos = () => {
             <h3>Lista de productos</h3>
             <div className='row'>
                 <div className='col'>
-                    <Link to='/productos/agregar' className='btn btn-success mt-2 mb-2' >  Agregar producto <i className="fa-solid fa-user-plus"></i></Link>
+                    <Link to='/productos/agregar' className='btn btn-success mt-2 mb-2' >  Agregar producto  <i className="fa-solid fa-user-plus"></i></Link>
                     <table className='table table-bordered border border-black'>
                         <thead className="table-success table-group-divider">
                             <tr>
